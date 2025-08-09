@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.home {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  background-color: #DAD7B6;
+}
+
+/*NAVBAR*/
+.navbar{
+    width: 100%;
+    background-color: #545334;
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    align-items: center;
+    height: 10vh;
+}
+
+.name{
+    color: #DAD7B6;
+    margin-left: 10rem;
+    font-size: 2rem;
+}
+
+.links a{
+    color: #DAD7B6;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+
+.links .contact a{
+    color: #545334;
+}
+
+.links a:hover {
+    opacity: 1;
+}
+
+.links{
+    margin-right: 10rem;
+    display: flex;
+    gap: 10rem;
+    font-size: 2rem;
+    color: #DAD7B6;
+    align-items: center;
+}
+
+.contact{
+    background-color: #DAD7B6;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.contact:hover {
+    box-shadow: 0 0 20px 1px white ;
+    scale: 1.02;
+}
+
+/*HOME PAGE*/
+.content-home-page{
+    display: flex;
+    /*background-color: rgb(58, 114, 163);*/
+    height: 90vh;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #DAD7B6;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.home-text,.home-img{
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.home-img{
+    width: 30rem;
+}
+.home-text{
+    padding: 1rem;
+    width: 60rem;
+}
+
+.group-tt {
+    color: #545334;
+    margin: 8rem;
+}
+
+.group-tt h1{
+    font-size: 5rem;
+}
+.group-tt h2 {
+    margin-bottom: 12px;
+}
+
+.group-tt p {
+    margin-right: 60px;
+}
+
+.me img {
+    width: 25rem;
+    height: auto;
+    border-radius: 30px;
+    transition: 0.2s ease-in;
+    transition-property: scale, box-shadow;
+}
+
+.me img:hover {
+    scale: 1.02;
+    box-shadow: inset -1px 3px 8px 5px #1F87FF;
+}
+
+/*ABOUT PAGE*/
+.about {
+    height: 60vh;
+    width: 100vw;
+    background-color: #ccc9aa;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-abt{
+    background-color: #545334;
+    width: 20vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.title-abt h2{
+    color: #DAD7B6;
+    font-size: 5rem;
+    margin: 5rem;
+    text-align: center;
+}
+
+.content-abt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abt-txt {
+    width: 80vw;
+}
+
+.abt-txt p{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 1.2em;
+}
+
+.projects {
+    height: 90vh;
+    background-color: #b9b79a;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.projects h2{
+    text-align: center;
+    font-size: 8rem;
+    padding-top: 5rem;
+}
+
+.prj-card-container {
+    background-color: #858350;
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-evenly;
+    /*gap*/
+}
+
+.card{
+    background-color: rgb(98, 98, 145);
+    text-align: center;
+    margin: 2rem;
+    width: 20vw;
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card p{
+    background-color: #486280;
+        height: 50%;
+
+}
