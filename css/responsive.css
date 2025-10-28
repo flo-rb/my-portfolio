@@ -1,0 +1,173 @@
+@media (max-width: 1200px) {
+    .name {
+        margin-left: 3rem;
+    }
+
+    .links {
+        margin-right: 3rem;
+        gap: 4rem; 
+    }
+
+    .group-tt {
+        margin: 4rem; 
+    }
+
+    .group-tt h1 {
+        font-size: 4rem;
+    }
+
+    .abt-txt p {
+        margin-left: 100px; 
+        margin-right: 100px;
+    }
+
+    .projects h2 {
+        font-size: 6rem; 
+    }
+
+    .prj-card-container{
+        width: 90vw;
+    }
+
+    .card{
+        width: 25%;
+    }
+
+    .card h3{
+        font-size: 1rem;
+    }
+
+    .card p{
+        font-size: 0.8rem;
+    }
+
+    .card img{
+        height: 120px;
+    }
+}
+
+
+/*tablettes*/
+@media (max-width: 992px) {
+    
+    .content-home-page {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .home-text {
+        width: 100%;
+        height: auto;
+        order: 2;
+    }
+
+    .home-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .me img {
+        width: 18rem;
+    }
+
+    .group-tt {
+        margin: 1rem;
+    }
+
+    .group-tt p {
+        margin-right: 0; 
+    }
+
+    .about {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 3rem;
+    }
+
+    .title-abt {
+        width: 100%;
+    }
+
+    .title-abt h2 {
+        margin: 2rem 0;
+        font-size: 3rem;
+    }
+
+    .abt-txt {
+        width: 100%;
+    }
+
+    .abt-txt p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 1rem;
+    }
+
+    .projects {
+        height: auto;
+        padding-bottom: 3rem;
+    }
+    .prj-card-container {
+        flex-direction: column; /*empiler cartes*/
+        align-items: center; 
+        width: 90vw;
+        height: auto;
+    }
+
+    .card {
+        width: 80%;
+        min-height: 150px;
+    }
+
+    .card img{
+        height: 100px;
+    }
+}
+
+/* telephones */
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        height: auto; 
+        padding: 1rem 0;
+    }
+
+    .name {
+        margin-left: 0; 
+        margin-bottom: 1rem;
+    }
+
+    .links {
+        flex-direction: column; 
+        margin-right: 0;
+        gap: 1.5rem; 
+        font-size: 1.5rem;
+    }
+
+    .contact {
+        margin-top: 0.5rem;
+    }
+    
+    .group-tt h1 {
+        font-size: 2.5rem;
+    }
+    .group-tt h2 {
+        font-size: 1.2rem;
+    }
+
+    .projects h2 {
+        font-size: 3.5rem;
+        padding-top: 3rem;
+    }
+
+    .card{
+        width: 90%;
+    }
+
+    .card-img{
+        height: 80px;
+    }
+}
